@@ -1,0 +1,6 @@
+PWD C:/Users/Uchino/OneDrive/Cm˜_•¶/ƒeƒ“ƒvƒŒ/2016ShuRon/00Title
+INPUT c:/texlive/2013/texmf.cnf
+INPUT c:/texlive/2013/texmf-var/web2c/euptex/uplatex.fmt
+INPUT title.tex
+OUTPUT title.log
+OUTPUT title.dvi

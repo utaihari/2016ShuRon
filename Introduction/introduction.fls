@@ -1,0 +1,8 @@
+PWD C:/Users/Uchino/OneDrive/èCémò_ï∂/ÉeÉìÉvÉå/2016ShuRon/Introduction
+INPUT c:/texlive/2013/texmf.cnf
+INPUT c:/texlive/2013/texmf-var/web2c/euptex/uplatex.fmt
+INPUT introduction.tex
+OUTPUT introduction.log
+OUTPUT introduction.dvi
+INPUT c:/texlive/2013/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

@@ -1,0 +1,13 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2\unhbox \voidb@x \hbox {--}1}{\ignorespaces 初期状態のLZW辞書．}}{3}
+\contentsline {table}{\numberline {2\unhbox \voidb@x \hbox {--}2}{\ignorespaces 単語を登録した後のLZW辞書．}}{5}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}1}{\ignorespaces 全画像に対する判別率}}{25}
+\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}2}{\ignorespaces 全画像に対する平均適合率}}{28}
+\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}3}{\ignorespaces 重みの評価}}{29}
+\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}4}{\ignorespaces HOPRDCでPRDCよりも精度が向上（低下）したデータセットの数}}{31}
+\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}5}{\ignorespaces WNMDでNMDよりも精度が向上（低下）したデータセットの数n}}{32}
+\addvspace {10\p@ }

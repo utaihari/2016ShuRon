@@ -1,0 +1,876 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"loca",
+				"location.href"
+			],
+			[
+				"use",
+				"use_item_select_number\t(bingo_cards.coffee)"
+			],
+			[
+				"center",
+				"center70\t(show.html.erb)"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"che",
+				"checks\t(bingo_cards_controller.rb)"
+			],
+			[
+				"current",
+				"current_user"
+			],
+			[
+				"find",
+				"find_by"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nLaTeXTools\n----------\n\n  LaTeXTools Plugin version 3.12.15 (2016-01-14) changelog:\n  \n  Bugfixes:\n  - Fixed a bug which caused bibtex not to be run when using the Harvard package (#1007)\n\n  LaTeXTools Plugin version 3.12.14 (2016-01-10) changelog:\n  \n  Bugfixes:\n  - Fixed a bug, which disabled some builders and debug information (#1004)\n  - Improved math preview inside displaymath environment (#996)\n\n\nSublimerge 3\n------------\n\n  Sublimerge has just been upgraded to version 3.0.24\n  \n  It is highly recommended to restart Sublime Text before use.\n  ------------------------------------------------------------\n  \n  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n  !!                                                                                                       !!\n  !!                NOTE: THIS IS A BETA VERSION. PLEASE REPORT ANY BUGS YOU MAY ENCOUNTER.                !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!     http://www.sublimerge.com/support.html                                support@sublimerge.com      !!\n  !!                                                                                                       !!\n  !!     Issue Tracker: https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open     !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!                                                                                                       !!\n  !!     Please visit http://www.sublimerge.com/sm3/docs/ for more information.                            !!\n  !!                                                                                                       !!\n  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n  \n  \n  What's new?\n  ===========\n  \n  \n  Bug fixes:\n      #23 - Fixed handling files with different indentations\n      #26 - Fixed \"sticky\" mouse button and context menu in diff window\n      #32 - Directories Diff: allow opening diff when file is missing on one side\n      #33 - Preserve cursor position after diff is refreshed\n  \n  Enhancements:\n      Added support for \"start_swapped\" setting.\n  \n  \n  Please report any issues you may encounter using the form on http://www.sublimerge.com/support.html or\n  Issue Tracker (https://bitbucket.org/borysforytarz/sublimerge-3/issues?status=new&status=open)\n  \n  \n  \n  Simplified usage instructions\n  =============================\n  \n  In file view:\n  \n      [ctrl]+[alt]+[d]                      - display Quick Panel with Sublimerge commands available for current view\n  \n  \n  In diff view:\n  \n      Windows/Linux:\n  \n      [ctrl]+[down]                         - select next change\n      [ctrl]+[up]                           - select previous change\n    * [ctrl]+[left]                         - copy selected change (or active line) to left from right\n    * [ctrl]+[right]                        - copy selected change (or active line) to right from left\n      [ctrl]+[shift]+[left]                 - copy all changes to left from right\n      [ctrl]+[shift]+[right]                - copy all changes to right from left\n  \n      OS X:\n  \n      [alt]+[down]                          - select next change\n      [alt]+[up]                            - select previous change\n    * [alt]+[left]                          - copy selected change (or active line) to left from right\n    * [alt]+[right]                         - copy selected change (or active line) to right from left\n      [alt]+[shift]+[left]                  - copy all changes to left from right\n      [alt]+[shift]+[right]                 - copy all changes to right from left\n  \n      Common:\n  \n      [f3]                                  - swap panels\n      [f4]                                  - show changes navigator\n      [f5]                                  - recompare buffers\n  \n    * - if change is selected the command will copy its whole contents, otherwise will copy only the focused line\n  \n  \n  In directories diff view:\n  \n      [down]                              - select next file/directory\n      [up]                                - select previous file/directory\n      [left]                              - copy file/directory from right to left\n      [right]                             - copy file/directory from left to right\n      [enter]                             - enter sub directory / compare text files\n      [backspace]                         - enter parent directory\n  \n  \n      Windows/Linux:\n  \n      [ctrl]+[down]                       - select next different file/directory\n      [ctrl]+[up]                         - select previous different file/directory\n  \n  \n      OS X:\n  \n      [alt]+[down]                        - select next different file/directory\n      [alt]+[up]                          - select previous different file/directory\n  \n  \n      For convenience Sublimerge also supports standard OS X keyboard shortcuts for directories navigation:\n  \n      [cmd]+[down]                        - enter sub directory / compare text files\n      [cmd]+[up]                          - enter parent directory\n  \n  \n  Licensing\n  =========\n  \n  Sublimerge requires a license to be purchased for continued use. Please visit www.sublimerge.com/sm3/ for more\n  detailed information about licensing.\n  \n  \n  More information\n  ================\n  \n  For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com\n  \n  \n  By the way...\n  =============\n  \n  Take a break from your work and play my BF's Draughts on your iOS device!\n  Available on the App Store! :)\n  \n  http://www.bfdraughts.com/as/\n",
+			"settings":
+			{
+				"buffer_size": 6105,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "Experiment/experiment.tex",
+			"settings":
+			{
+				"buffer_size": 8106,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.tex",
+			"settings":
+			{
+				"buffer_size": 1998,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "RelevantStudy/relatedstudy.tex",
+			"settings":
+			{
+				"buffer_size": 11522,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\\chapter{High-Order PRDC}\n本章では，圧縮後のファイルから特徴抽出を行う手法であるPRDCに着目する．\nそして，圧縮後のファイルから別の特徴を新たに抽出することでPRDCを改良する．\n\nまず，PRDCが使用する圧縮率は，テキスト内の単語頻度のみで決定され\n異なる単語間の関係を一切利用していない特徴であることを指摘する．そして，隣接\nする単語関係を表す新しい特徴量を提案する．その後で新しい特徴量をPRDCに組み込んだ\n手法を提案する．\n\n\\section{圧縮率} % (fold)\n\\label{sec:圧縮率}\nPRDCが利用する圧縮率について考察する．PRDCではLZWアルゴリズムを用いて，基底辞書$D$に単語とそれに対応する符号(出力記号)\nのペアを登録する．符号の長さは元の単語長よりも小さい．そして，圧縮時には入力テキスト$T$を前方からスキャンし，\n$T$内の単語を対応する符号に順次置き換えることで圧縮を実現する．\n一般に$T$を辞書$D$を使って圧縮した時の圧縮率は\n\\begin{eqnarray}\n圧縮率 &=& \\frac{圧縮後のファイルサイズ}{元テキストTのサイズ} \\nonumber \\\\\n&=& \\frac{圧縮後の符号数 * 1符号の\\mbox{bit}長}{Tの文字数 * 1文字の\\mbox{bit}長} \\nonumber \\\\\n&=& \\frac{圧縮後の符号数}{Tの文字数} * \\alpha\n%&= \\frac{\\sum_{i=1}^n m_i}{元のテキストの長さ} * \\alpha\n\\label{eq:compress}\n\\end{eqnarray}\nと記述できる．だたし，$\\alpha=\\frac{1符号の\\mbox{bit}長}{1文字の\\mbox{bit}長}$を表す定数である．\n\nここで辞書$D$に$n$種類の単語$(w_1,w_2,..,w_n)$が登録されているとする．単語$w_i$の文字数を$l_i$とおく．\nさらに$T$内の単語$w_i$の出現回数を$m_i$と記述する．この時，式(\\ref{eq:compress})における\n圧縮後の符号数は$\\sum_{i=1}^n m_i$である．一方，$T$の長さは$\\sum_{i=1}^n m_il_i$になる．\n従って，式(\\ref{eq:compress})は次のように書き換えられる．\n\\begin{equation}\n\\begin{split}\n圧縮率 &= \\frac{\\sum_{i=1}^n m_i}{\\sum_{i=1}^n m_i l_i} * \\alpha \\cr\n&= 1-(1-\\frac{\\sum_{i=1}^n m_i}{\\sum_{i=1}^n m_i l_i}) * \\alpha \\cr\n&= 1- \\frac{\\sum_{i=1}^n m_i(l_i -1)}{\\sum_{i=1}^n m_i l_i} * \\alpha \\cr\n&= 1- \\frac{\\sum_{i=1}^n m_i(l_i -1)}{Tの長さ} * \\alpha\n\\end{split}\n\\label{eq:ncomp}\n\\end{equation}\n$l_i -1$は$w_i$の符号化1回で削減される文字数であり，$m_i(l_i -1)$は，$w_i$の符号化に\nより元のテキストから何文字削減できるかを表す．\n式(\\ref{eq:ncomp})が示すように圧縮率は各単語の出現頻度のみで決定される特徴量であり，\n$T$内における異なる単語の関係は考慮しない．例えば，どの単語とどの単語が$T$内で\n隣接して出現するかという情報は圧縮率には反映されない．\n%元テキストにおける単語の隣接関係は全く考慮されていない．\n% section 圧縮率 (end)\n\\section{再圧縮による単語の隣接関係の抽出}\n\\begin{figure}[ht]\n\\begin{center}\n\\includegraphics[clip, width=\\columnwidth]{image/recompress.eps}\n\\caption{圧縮後のファイルの再圧縮}\n\\label{fig:image/recompress.eps}\n\\end{center}\n\\end{figure}\n前節で述べたように，基底辞書による圧縮率は$T$に各単語が何回含まれるかによって決定される特徴量である．\nしかし，$T$内でどの単語が隣接して出現するかという情報を捨ててしまっている．\n%\nそこで，本研究では$T$内での単語の隣接関係から定まる新しい特徴量を圧縮後の\nファイルから抽出する．単純な方法としては，元のオブジェクトを\n\n具体的には，$T$を辞書$D$で圧縮後のファイル(符号列)を$A^T_D$\nとすると，$A^T_D$をもう一度再圧縮を行った時の圧縮率を特徴量として採用する．\n$A^T_D$の再圧縮では，辞書$D$で圧縮するのではなく，$A^T_D$から構築した辞書で\n$A^T_D$自身を圧縮する．すなわち，$A^T_D$の自己圧縮率を再圧縮率とする．\n再圧縮率の詳しい求め方をAlgorithm\\ref{algo:recompress}に示す．\n\\begin{algorithm}\n\\caption{再圧縮率の算出}\\label{algo:recompress}\n\\begin{algorithmic}[1]\n\\Procedure{CalcRecompressRate}{$A^T_D$}\n\\Comment{$A^T_D$は１度目の圧縮で出力された符号列}\n\\State{$Dictionary = 空の辞書$}\n\\State{$OutputLength = 0$}\\Comment{出力長}\n\\State{$index = 0$}\\Comment{辞書番号}\n\\State{$w = \\{\\}$}\n\\For{$i = 1 \\, \\ldots \\, A^T_D.\\mathrm{length}$}\n\\State{$c = A^T_D[i]$}\n\\State{$wc = w + \\{c\\}$}\\Comment{符号列$w$と符号列$\\{c\\}$を連結}\n\\If{$符号列cが辞書に存在しない$}\n\\State{$Dictionary[\\{c\\}] = index$}\\Comment{初めて出現した符号列$c$を辞書に登録}\n\\State{$index++$}\n\\EndIf\n\\If{$符号列wcが辞書に存在する$}\n\\State{$w = wc$}\n\\Else\n\\State{$Dictionary[wc] = index$}\\Comment{符号列$wc$を辞書に登録}\n\\State{$index++$}\n\\State{$OutputLength++$}\n\\State{$w = \\{c\\}$}\n\\EndIf\n\\EndFor\n\\If{$wが空でない$}\n\\State{$OutputLength++$}\n\\EndIf\n\\State{$RecompressRate = OutputLength / A^T_D.\\mathrm{length}$}\n\\State \\textbf{return} $RecompressRate$\n\\EndProcedure\n\\end{algorithmic}\n\\end{algorithm}\n\n\n再圧縮率が$T$内の単語の隣接関係から定まる特徴であることを例によって示す．\n%一度目の圧縮率だけでは分類できないデータを分類する．\n図\\ref{fig:image/recompress.eps}は，テキスト$T_1$と$T_2$を再圧縮まで行った時の様子を示す．\n最下段が元のテキストであり，真ん中の段が辞書$D$で圧縮後のファイル，最上段が再圧縮後の出力ファイルである．\nなお，再圧縮時には自己圧縮を行うため，$T_1$の再圧縮と$T_2$の再圧縮では異なる辞書が用いられている．\n\n辞書$D$で$T_1,T_2$を圧縮後の符号化列はそれぞれ''ABCABC''，''ACBBAC''と異なっている．しかし，圧縮率は\nどちらも$\\frac{6}{16}=0.375$となって$T_1$と$T_2$は区別できない．これは符号語'A','B','C'の出現回数\nが同じであることが理由であり，3.1節で述べたように単語の出現回数のみで決定される圧縮率の限界である．\n\n一方，$T_1$の再圧縮率は$\\frac{2}{6}$，$T_2$の再圧縮率は$\\frac{4}{6}$と異なる値になり，$T_1$と$T_2$を\n区別できる．この違いは$T_1$と$T_2$の単語順序の違いに起因する．例えば，$T_1$の再圧縮率は符号語列\n'ABC'が$T_1$内に2回出現した事実を反映する．このように再圧縮率は単語の隣接関係から定まる特徴である．\n\n%xとyの区別がつかない．もう一度圧縮を行うことで，符号列の構造を表した特徴量を抽出する事ができる．\n\\section{再圧縮率を利用したPRDC}\n%\\section{圧縮率ベクトル} % (fold)\n本節では，前節で提案した再圧縮率をPRDCに組み込んだ手法を提案する．\n従来のPRDCでは，テキスト$x$を$N$個の基底辞書集合$\\{D_1,D_2,\\dots,D_N\\}$で圧縮し，その圧縮率を並べた$N$\n次元特徴ベクトル(式(\\ref{eq:PRDC}))で$x$を表現する．\n一方，提案手法では通常の圧縮率と再圧縮率を合わせた特徴ベクトルを構築する．\\ref{fig:HOPRDC.eps}\n\n\\begin{figure}[ht]\n\\centering\n\\includegraphics[clip, width=\\columnwidth]{image/HOPRDC.eps}\n\\caption{再圧縮率を加えた圧縮率ベクトルの作成}\n\\label{fig:HOPRDC.eps}\n\\end{figure}\n\n基底辞書集合$\\{D_1,D_2,\\dots,D_N\\}$を用いた，データ$x$に対する再圧縮率を加えた圧縮率ベクトルは\n$\\boldsymbol{rp}(B,x)$は次のように定義される．\n\\begin{equation}\n\\boldsymbol{rp}(B,x) = \\biggl(\\frac{l'_1}{l}, \\frac{l''_1}{l_1'}, \\frac{l'_2}{l}, \\frac{l''_2}{l'_2}, \\dots, \\frac{l'_N}{l}, \\frac{l''_N}{l'_N} \\biggr)\n\\end{equation}\n\\begin{itemize}\n\t\\item $l $:入力データ長\n\t\\item $l'_i$: $x$を$D_i$で圧縮したときの出力長\n\t\\item $l''_i$: $x$を$D_i$で圧縮した符号列を，再圧縮したときの出力長\n\\end{itemize}\nである．1つの基底辞書が2つの次元に対応するので，圧縮率ベクトルの次元数は$2N$になる．この圧縮率ベクトルは\n以下の特徴を有する.\n\\begin{enumerate}\n\t\\item 通常の圧縮率により単語の頻度を考慮する.\n\t\\item 再圧縮率により単語の隣接関係を考慮する.\n\\end{enumerate}\n提案手法では単語の頻度だけでなく単語の隣接関係まで考慮したパターン認識を可能にする.\nこの性質より，提案手法をHOPRDC (High-Order PRDC, 高階PRDC)と名付ける．\n\nここでHOPRDCはPRDCと比べて追加のハイパパラメータを必要としておらず，利用の手軽さを失っていないことに着目してほしい．\n\n%\\label{sub:再圧縮率を取り入れたprdc}\n\\chapter{辞書からの新しい特徴抽出} % (fold)\n本章では，圧縮辞書から特徴抽出を行う手法であるNMDを取り上げ，\n圧縮辞書からの新しい特徴抽出によるNMDの改良手法を説明する．\n\\label{sec:nmdの改良_仮_}\n\\section{NMDの課題}\nNDDやNMDなどの辞書間距離では，辞書を元データの要約として用いることで，類似度計算の計算量を削減する.\nその一方で，元データから情報を捨てることが欠点である．NMDでは各単語の出現回数を考慮し，NDDよりも捨てられる情報を削減した．\nしかし，NMDでは辞書に登録された単語長を無視し，全単語は長さによらず均等の重みを持つものとして式(\\ref{eq:NMD})の定義\nに従って距離計算を実施する．つまり，単語が元のオブジェクトで占めている割合を考慮していない．\n\n図~\\ref{fig:image/NMD_Task.eps}は，NMDで使用する多重集合中の単語の割合と，元オブジェクトにおける単語の割合の一例である．オブジェクト$x$は全体で7文字なので，3文字の単語\"aaa\"がオブジェクト$x$中で占める割合は3/7である．対して，単語\"aaa\"が多重集合$MS(x)$中で占める割合は，\"aaa\"の重複度が1なので1/4となる．\nこのように，NMDのように全単語を均等に取り扱う手法では，元データにおいて単語が占める領域の割合と，\n各単語が類似度計算に与える影響の割合が乖離する．\n\n\\begin{figure}[ht]\n\\begin{center}\n\\includegraphics[clip, width=\\columnwidth]{image/NMD_Task.eps}\n\\caption{単語の多重集合中の割合とオブジェクト中の割合}\n\\label{fig:image/NMD_Task.eps}\n\\end{center}\n\\end{figure}\n\n距離計算の際，単語長を無視することがパターン認識に与える影響を考えてみよう．図\\ref{fig:created_image.eps}左の画像は，\n上半分が単純な領域で，下半分が複雑な領域になっている．このような画像の現実例としては上半分が海で下半分が港湾都市\nであるケースが挙げられる．この画像から辞書を作ると，上領域からは長い単語が少数生成され，下領域からは\n短い単語が多数生成される(図\\ref{fig:created_image.eps}右)．この時，全単語を均等に取り扱うということは，\n少数の単語を生成する上半分の領域を軽視することを意味する．距離計算においても上半分の領域が軽視されるので，\n類似検索の際，上半分が全く同じデータでも類似していると判定されないという問題が起こり得る．先述した現実例では，\n海を含む画像は海を含むという理由では類似していると判定されにくくなるが，これは人間の直観に反する.\n\n% 上記をまとめると，NMDのように全単語を均等に取り扱う手法では，元データにおいて単語が占める領域の割合と，\n% 各単語が類似度計算に与える影響の割合が乖離する．\n\n%元データの単調な領域を軽視することになる.\n%\n%\n%例えば，図\\ref{fig:created_image.eps}の左側の画像では，単純な領域が上半分を占めているが，殆どの単語は下半分の複雑な部分から抽出されるため，\n\n\\begin{figure}[ht]\n\\begin{center}\n\\includegraphics[clip, width=\\columnwidth]{image/created_image_1.eps}\n\\caption{単純な領域と複雑な領域に対する辞書内での単語の割合}\n\\label{fig:created_image.eps}\n\\end{center}\n\\end{figure}\n\\section{重み付きNMD}\n前節で述べた課題に対して，本研究では単語ごとに重みを付けて類似度を計算する\n重み付き辞書間距離 WNMD (weighted NMD)を提案する．$x,y$間の距離$WNMD(x,y)$は次のように\n定義される.\n%単語がデータ中で占める長さによらず，類似度計算に与える影響に差がない問題を回避するために，単語ごとに重みをつけることを考える．\n%次のような\n$$\n\\frac{G(MS(x) \\cup MS(y)) - \\min(G(MS(x)) , G(MS(y)))}{\\max(G(MS(x)) , G(MS(y)))}\n$$\n\\begin{equation}\nG(MS(x)) = \\sum_{i=1}^n g(w_iの長さ)\\times m_i^x\n\\end{equation}\nここで，$g(w_iの長さ)$は$w_i$の長さによって決定される単語の重みである.\n\n関数$g$は単語の長さに関して単調増加することが望ましい．本論文では$n$文字の\n単語の重み$g(n)$を，同一文字が$n$回連続した最も単純な$n$文字の文字列に対する\n最小記述長から定める．\n\n文字列$T=\\underbrace{\\mbox{aa}\\cdots \\mbox{a}}_n$は，$a$が$\\sqrt{n}$回連続した文字列$A=\\underbrace{\\mbox{aa}\\cdots \\mbox{a}}_{\\sqrt{n}}$を符号語\n(モデル)として，$\\underbrace{\\mbox{AA}\\cdots \\mbox{A}}_{\\sqrt{n}}$と表記した時に，\n$$記述長=(モデルAの長さ)+(AによるTの符号列長)$$\nが最小になる．この時の記述長は$O(\\sqrt{n})$になることから，$g(n)$を式(\\ref{eq:weightWNMD})とした.\n\\begin{equation}\n\\label{eq:weightWNMD}\ng(n)=\\sqrt{n}.\n\\end{equation}\n%重みは$log_2(単語の長さ)$とする.\n% section nmdの改良_仮_ (end)",
+			"file": "Proposal/proposal.tex",
+			"file_size": 14396,
+			"file_write_time": 131294091700000000,
+			"settings":
+			{
+				"buffer_size": 7480,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "install ",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"comp",
+				"Coffee: Compile File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 357.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"rails",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Uchino/OneDrive/修士論文/テンプレ/2016ShuRon",
+		"/C/Users/Uchino/OneDrive/修士論文/テンプレ/2016ShuRon/Experiment",
+		"/C/Users/Uchino/OneDrive/修士論文/テンプレ/2016ShuRon/Proposal",
+		"/C/Users/Uchino/OneDrive/修士論文/テンプレ/2016ShuRon/Reference",
+		"/C/Users/Uchino/OneDrive/修士論文/テンプレ/2016ShuRon/RelevantStudy"
+	],
+	"file_history":
+	[
+		"/C/Users/Uchino/OneDrive/修士論文/テンプレ/2016ShuRon/Experiment/experiment.tex",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/TODO.txt",
+		"/C/Users/uchino/OneDrive/プログラミング/Python/DataCrastering/main.py",
+		"/C/Users/uchino/OneDrive/修士論文/テンプレ/kobayashi/生活の仕事.txt",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/views/bingo_cards/_items.html.erb",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/views/bingo_cards/_select_number.html.erb",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/assets/javascripts/bingo_cards.coffee",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/controllers/bingo_cards_controller.rb",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/controllers/application_controller.rb",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/precision-11月10日17時1分4秒.txt",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/10月28日0時29分28秒.txt",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/11月17日23時36分26秒.txt",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/Gemfile",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/views/bingo_cards/show.html.erb",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/views/devise/registrations/new.html.erb",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/config/routes.rb",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/assets/javascripts/rooms.coffee",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/precision-11月10日19時36分40秒.txt",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/11月24日18時4分12秒.txt",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/11月30日17時12分12秒.txt",
+		"/C/Users/uchino/Documents/GitHub/RailsGame/app/controllers/users/registrations_controller.rb",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/10月28日2時4分18秒.txt",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/11月26日22時20分31秒.txt",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/11月25日18時53分52秒.txt",
+		"/C/Users/uchino/OneDrive/ゼミ/ゼミ資料/11月30日17時56分17秒.txt",
+		"/C/Users/uchino/OneDrive/メモ等/Cropper改造メモ",
+		"/C/Users/uchino/Downloads/Cropper_files/delete.js",
+		"/C/Users/uchino/Downloads/Cropper_files/check_box.js",
+		"/C/Users/uchino/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/uchino/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/uchino/OneDrive/研究/外部発表/sita2016-author-kit-sjis/sublime.tex"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"データ",
+			"number_click",
+			"bingo-users",
+			"number_generator",
+			"qr_code",
+			"number_generator",
+			"QR_CODE",
+			"number_generator",
+			"activeAnnotationID"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6105,
+								6105
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"default_dir": "C:\\Users\\Uchino\\OneDrive\\修士論文\\テンプレ\\2016ShuRon",
+							"is_init_dirty_state": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Experiment/experiment.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 114,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										4343,
+										4344
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1635.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1138,
+								1138
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 23,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1989,
+										1997
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										764,
+										772
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "RelevantStudy/relatedstudy.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 650,
+								"count": 178,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5850.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Proposal/proposal.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								122
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 33,
+								"count": 79,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "shuron.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bingoitem",
+				"app\\views\\bingo_cards\\_items.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

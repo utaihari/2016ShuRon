@@ -1,0 +1,8 @@
+PWD C:/Users/Uchino/OneDrive/èCémò_ï∂/ÉeÉìÉvÉå/2016ShuRon/Proposal
+INPUT c:/texlive/2013/texmf.cnf
+INPUT c:/texlive/2013/texmf-var/web2c/euptex/uplatex.fmt
+INPUT proposal.tex
+OUTPUT proposal.log
+OUTPUT proposal.dvi
+INPUT c:/texlive/2013/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

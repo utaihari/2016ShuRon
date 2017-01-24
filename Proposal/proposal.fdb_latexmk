@@ -1,0 +1,11 @@
+# Fdb version 3
+["dvipdf"] 0 "proposal.dvi" "proposal.pdf" "proposal" 0
+  "proposal.dvi" 0 -1 0 "latex"
+  (generated)
+  "proposal.pdf"
+["latex"] 0 "proposal.tex" "proposal.dvi" "proposal" 0
+  "proposal.aux" 1484641605 9 a94a2480d3289e625eea47cd1b285758 ""
+  "proposal.tex" 0 -1 0 ""
+  (generated)
+  "proposal.dvi"
+  "proposal.log"

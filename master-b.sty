@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%       修士論文用スタイルファイル            %%
+%%                Dec 13, '89                  %%
+%%                by T.Hanamura                %%
+%%                                             %%
+%% for LaTeX2e by T.Hama Dec.23 '01            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\typeout{Documet Class 'master.sty'. made by T.Hanamura . for LaTeX2e improved by T.Hama}
+
+%%-----------------
+%%  ページスタイル
+%%
+\pagestyle{headings}
+%% 文字間隔調整用
+\def\baselinestretch{1.2} \small\normalsize
+
+
+%%-----------------
+%%  章建て - chapter
+%%
+\def\@sect#1#2#3#4#5#6[#7]#8{\ifnum #2>\c@secnumdepth
+     \def\@svsec{}\else
+     \refstepcounter{#1}\edef\@svsec{\csname the#1\endcsname\hskip 1em }\fi
+     \@tempskipa #5\relax
+      \ifdim \@tempskipa>\z@
+%%        \begingroup #6\relax
+%%          \@hangfrom{\hskip #3\relax\@svsec}{\interlinepenalty \@M #8\par}
+%%        \endgroup
+%% Modified
+        \begingroup #6\relax
+           \setbox0=\hbox{{\@svsec}{\interlinepenalty \@M #8}}
+          \noindent\underline{\box0}\par
+        \endgroup
+       \csname #1mark\endcsname{#7}\addcontentsline
+         {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                      \protect\numberline{\csname the#1\endcsname}\fi
+                    #7}\else
+        \def\@svsechd{#6\hskip #3\@svsec #8\csname #1mark\endcsname
+                      {#7}\addcontentsline
+                           {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                             \protect\numberline{\csname the#1\endcsname}\fi
+                       #7}}\fi
+     \@xsect{#5}}
+
+\def\@makechapterhead#1{\hbox{}%
+  \vskip2\Cvs
+  {\parindent\z@
+   \raggedright
+   \reset@font\huge\bfseries
+%   \reset@font\Large\bfseries % by hama
+
+   \ifnum \c@secnumdepth >\m@ne
+     \setlength\@tempdima{\linewidth}%
+     \setbox\z@\hbox{\@chapapp\thechapter\@chappos\hskip1zw}%
+     \addtolength\@tempdima{-\wd\z@}%
+     \unhbox\z@ \nobreak
+     \vskip 20pt %by hama
+     \vtop{\hsize\@tempdima#1}%
+   \else
+     #1\relax
+   \fi}\nobreak\vskip3\Cvs}
+\def\@makeschapterhead#1{\hbox{}%
+  \vskip2\Cvs
+  {\parindent\z@
+   \raggedright
+%   \reset@font\huge\bfseries
+   \reset@font\Large\bfseries
+   \setlength\@tempdima{\linewidth}%
+   \vtop{\hsize\@tempdima#1}}\vskip3\Cvs}
+\renewcommand{\section}{\@startsection{section}{1}{\z@}%
+   {1.5\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+   {.5\Cvs \@plus.3\Cdp}%
+   {\reset@font\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
+   {1.5\Cvs \@plus.5\Cdp \@minus.2\Cdp}%
+   {.5\Cvs \@plus.3\Cdp}%
+   {\reset@font\normalsize\bfseries}}
+%%--------------------
+%%  式番号-equation
+%%
+\def\theequation{\thechapter\mbox{$\cdot$}\arabic{equation}}
+%%
+
+%%--------------------
+%%  図表題style
+%%
+
+%%--------------------
+%%  表番号-table
+%%
+\def\thetable{\thechapter\mbox{--}\@arabic\c@table}
+%%
+
+%%--------------------
+%%  図番号-figure
+%%
+\def\thefigure{\thechapter\mbox{--}\@arabic\c@figure}
+%%
+
+%%---------------
+%%  図表題style \caption
+%%
+\long\def\@makecaption#1#2{
+ \vskip 10pt
+ \setbox\@tempboxa\hbox{#1: #2}
+ \ifdim \wd\@tempboxa >\hsize #1: #2\par \else \hbox
+%%to\hsize{\hfil\box\@tempboxa\hfil}
+%%  is modified by T. Hanamura.
+to\hsize{\hfil\underline{\box\@tempboxa}\hfil}
+ \fi}
+%%
+%%
+\renewcommand{\listfigurename}{図一覧}
+\renewcommand{\listtablename}{表一覧}
+
+%%-------------------------------
+%%  箇条書 - enumerate, itemize
+%%
+%%
+%% 箇条書き- item.sty
+%%
+
+\def\labelitemi{$\bullet$}                   % ●
+\def\labelitemii{$\diamond$}                 % ◇
+\def\labelitemiii{$\ast$}                      % ＊
+\def\labelitemiv{$\circ$}                   % ○
+
+
+\def\labelenumi{\arabic{enumi}.}              % 1. 2. 3. ....
+\def\theenumi{\arabic{enumi}}
+\def\labelenumii{\alph{enumii})}              % a) b) c) .....
+\def\theenumii{\alph{enumii}}
+\def\labelenumiii{\roman{enumiii})}           % i) ii) iii) iv) ...
+\def\theenumiii{\roman{enumiii}}
+\def\labelenumiv{\Roman{enumiv}.}             % I. II. III. .....
+\def\theenumiv{\Roman{enumiv}}
+
+%%
+
+
+%%---------------------------------------
+%% 付録-bibliograhy
+%%
+
+%%
+%% 参考文献 style file
+%%
+
+
+\def\thebibliography#1{\section*{参考文献\markboth
+ {参考文献}{参考文献}}
+ \list                                             % list環境を用いている
+  {[\arabic{enumi}]}                               % (1) (2) (3) ...
+  {\settowidth\labelwidth{(#1)}
+  \leftmargin\labelwidth
+  \advance\leftmargin\labelsep
+  \usecounter{enumi}}
+  \def\newblock{\hskip .11em plus .33em minus -.07em}
+  \fussy
+  \sfcode`\.=1000\relax}
+\let\endthebibliography=\endlist
+
+% 参考文献の引用形式
+
+% (1) を上付きで
+\def\@cite#1#2{$^{\mbox{\scriptsize ({#1\if@tempswa,#2\fi})}}$}
+%%

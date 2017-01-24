@@ -1,0 +1,13 @@
+# Fdb version 3
+["dvipdf"] 1482997017 "title.dvi" "title.pdf" "title" 1482997018
+  "title.dvi" 1482997017 744 7aaf70e7fe08f0d41b79a6f48dc6aaa3 "latex"
+  (generated)
+  "title.pdf"
+["latex"] 1482997017 "title.tex" "title.dvi" "title" 1482997018
+  "c:/texlive/2013/texmf-var/web2c/euptex/uplatex.fmt" 1429187515 3971789 5af116492bf69526bcdb2635c2d52f19 ""
+  "c:/texlive/2013/texmf.cnf" 1429190346 812 3d4830efe6a30914cb43623489bbc970 ""
+  "title.aux" 1482997017 9 a94a2480d3289e625eea47cd1b285758 ""
+  "title.tex" 1482997015 709 182dc4d3e09203e5327b7cf9400f4f2a ""
+  (generated)
+  "title.dvi"
+  "title.log"

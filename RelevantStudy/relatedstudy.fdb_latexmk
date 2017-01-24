@@ -1,0 +1,11 @@
+# Fdb version 3
+["dvipdf"] 0 "relatedstudy.dvi" "relatedstudy.pdf" "relatedstudy" 0
+  "relatedstudy.dvi" 0 -1 0 "latex"
+  (generated)
+  "relatedstudy.pdf"
+["latex"] 0 "relatedstudy.tex" "relatedstudy.dvi" "relatedstudy" 0
+  "relatedstudy.aux" 1484673978 9 a94a2480d3289e625eea47cd1b285758 ""
+  "relatedstudy.tex" 0 -1 0 ""
+  (generated)
+  "relatedstudy.dvi"
+  "relatedstudy.log"

@@ -1,0 +1,77 @@
+\documentclass[a4j,12pt,dvipdfmx]{ujreport}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{subfigure} %図に(a)(b)(c)と記号を振れるパッケージ
+\usepackage{lscape}
+\usepackage{hhline}
+\usepackage{master}
+\usepackage{epsfig}
+
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{relsize}
+\usepackage{amssymb}
+
+\usepackage[utf8]{inputenc}
+\usepackage{atbegshi}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{url}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{dcolumn}
+\usepackage{bigstrut}
+\AtBeginShipoutFirst{\special{pdf:tounicode  UTF8-UCS2}}
+
+% \usepackage{amsmath}
+% \usepackage{txfonts}
+
+\setlength{\headsep}{1.1cm}
+\textheight=22.5cm
+%====[ プリアンプル ]================================================
+\begin{document}
+\renewcommand{\contentsname}{目 次}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand{\bibname}{参考文献}
+
+%====[ 表紙 ]========================================================
+\input{./00Title/title.tex}
+\clearpage
+
+%====[ 目次 ]========================================================
+\pagenumbering{roman}
+\tableofcontents
+\pagebreak
+\pagenumbering{arabic}
+
+\def\thline{\noalign{\hrule height 1pt}}
+\def\tvline{\vrule width 1pt}
+%====[ 本文 ]========================================================
+\input{./Introduction/introduction.tex}
+\input{./RelevantStudy/relatedstudy.tex}
+\input{./Proposal/proposal.tex}
+\input{./Experiment/experiment.tex}
+\input{./Conclusion/conclusion.tex}
+\clearpage
+
+%====[ 謝辞 ]========================================================
+\addcontentsline{toc}{chapter}{謝辞}
+\input{./Thanks/thanks.tex}
+\clearpage
+
+\addcontentsline{toc}{chapter}{参考文献}
+\bibliographystyle{junsrt}
+\bibliography{myrefs}
+\newpage
+
+%====[ 図・表一覧 ]==================================================
+\addcontentsline{toc}{chapter}{図一覧}
+\listoffigures
+\clearpage
+
+\addcontentsline{toc}{chapter}{表一覧}
+\listoftables
+\clearpage
+\pagebreak
+%--------------------------------------------------------------------
+\end{document}

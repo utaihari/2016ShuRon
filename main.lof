@@ -1,0 +1,25 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}1}{\ignorespaces データ圧縮によって得られる辞書．}}{7}
+\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}2}{\ignorespaces NCDの性質．}}{8}
+\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}3}{\ignorespaces 圧縮率ベクトルの作成}}{9}
+\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}4}{\ignorespaces 圧縮率ベクトルによるテキストの特徴表現．}}{10}
+\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}5}{\ignorespaces 辞書に基づく非類似度（距離）計算}}{11}
+\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}6}{\ignorespaces NMD計算の流れ}}{12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3\unhbox \voidb@x \hbox {--}1}{\ignorespaces 符号列からN-Gramのヒストグラムを作成}}{16}
+\contentsline {figure}{\numberline {3\unhbox \voidb@x \hbox {--}2}{\ignorespaces 圧縮後のファイルの再圧縮}}{17}
+\contentsline {figure}{\numberline {3\unhbox \voidb@x \hbox {--}3}{\ignorespaces 再圧縮率を加えた圧縮率ベクトルの作成}}{18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4\unhbox \voidb@x \hbox {--}1}{\ignorespaces 単語の多重集合中の割合とデータ中の割合}}{21}
+\contentsline {figure}{\numberline {4\unhbox \voidb@x \hbox {--}2}{\ignorespaces 単純な領域と複雑な領域に対する辞書内での単語の割合}}{22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}1}{\ignorespaces 圧縮率と再圧縮率の関係}}{24}
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}2}{\ignorespaces Corelデータセットの一部}}{25}
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}3}{\ignorespaces クラス毎の判別率（クエリの数は100枚，基底辞書の個数は10個，試行回数は300回）}}{26}
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}4}{\ignorespaces PRDCとHOPRDCの類似画像検索結果例}}{27}
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}5}{\ignorespaces NMDと提案手法の平均適合率の比較（クエリはデータセット中の全ての画像）}}{28}
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}6}{\ignorespaces データのテキスト化}}{30}
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}7}{\ignorespaces HOPRDCで分類精度が向上するデータと低下するデータの例}}{32}
+\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}8}{\ignorespaces WNMDで分類精度が向上するデータと低下するデータの例}}{33}
+\addvspace {10\p@ }

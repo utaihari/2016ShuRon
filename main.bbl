@@ -1,46 +1,38 @@
 \begin{thebibliography}{1}
 
 \bibitem{NCD}
-R.~Cilibrasi and P.M.B. Vitanyi.
-\newblock Clustering by compression.
-\newblock {\em IEEE Trans. Inf. Theory 51}, pp. 1523--1545, 2005.
+R.~Cilibrasi and P.~Vitanyi: ``Clustering by compression'', IEEE Trans. Inf.
+  Theory 51, pp. 1523--1545 (2005).
 
 \bibitem{PRDC}
-T.~Watanabe, K.~Sugawara, and H.~Sugihara.
-\newblock {A new pattern representation scheme using data compression}.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  Vol.~24, No.~5, pp. 579--590, May 2002.
+T.~Watanabe, K.~Sugawara and H.~Sugihara: ``{A new pattern representation
+  scheme using data compression}'', IEEE Transactions on Pattern Analysis and
+  Machine Intelligence, {\bf 24}, 5, pp. 579--590 (2002).
 
 \bibitem{NDD}
-A.~Macedonas, D.~Besiris, G.~Economou, and S.~Fotopoulos.
-\newblock Dictionary based color image retrieval.
-\newblock {\em Journal of Visual Communication and Image Representation},
-  Vol.~19, No.~7, pp. 464--470, October 2008.
+A.~Macedonas, D.~Besiris, G.~Economou and S.~Fotopoulos: ``Dictionary based
+  color image retrieval'', Journal of Visual Communication and Image
+  Representation, {\bf 19}, 7, pp. 464--470 (2008).
 
 \bibitem{NMD}
-D.~Besiris and E.~Zigouris.
-\newblock Dictionary-based color image retrieval using multiset theory.
-\newblock {\em Journal of Visual Communication and Image Representation},
-  Vol.~24, No.~7, pp. 1155 -- 1167, 2013.
+D.~Besiris and E.~Zigouris: ``Dictionary-based color image retrieval using
+  multiset theory'', Journal of Visual Communication and Image Representation,
+  {\bf 24}, 7, pp. 1155 -- 1167 (2013).
 
 \bibitem{osamu2006}
-渡辺治.
-\newblock 計算論から見たランダムネス.
-\newblock 統計数理, Vol.~54, No.~2, pp. 511--523, 2006.
+渡辺：``計算論から見たランダムネス'', 統計数理, {\bf 54},
+  2, pp. 511--523 (2006).
 
 \bibitem{Corel}
-Corel Corp.
-\newblock Corel stock photo library.
+C.~Corp.: ``Corel stock photo library''.
 \newblock Ontario, Canada.
 
 \bibitem{Caltech101}
-R.~Fergus L.~Fei-Fei and P.~Perona.
-\newblock Caltech 101.
+R.~F. L.~Fei-Fei and P.~Perona.: ``Caltech 101''.
 
 \bibitem{UCRArchive}
-Yanping Chen, Eamonn Keogh, Bing Hu, Nurjahan Begum, Anthony Bagnall, Abdullah
-  Mueen, and Gustavo Batista.
-\newblock The ucr time series classification archive, July 2015.
+Y.~Chen, E.~Keogh, B.~Hu, N.~Begum, A.~Bagnall, A.~Mueen and G.~Batista: ``The
+  ucr time series classification archive'' (2015).
 \newblock \url{www.cs.ucr.edu/~eamonn/time_series_data/}.
 
 \end{thebibliography}

@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {2.2.3}PRDC}{9}
 \contentsline {section}{\numberline {2.3}辞書に基づく非類似度計算}{11}
 \contentsline {subsection}{\numberline {2.3.1}NDD}{11}
-\contentsline {subsection}{\numberline {2.3.2}NMD}{11}
+\contentsline {subsection}{\numberline {2.3.2}NMD}{12}
 \contentsline {chapter}{\numberline {第3章}High-Order PRDC}{14}
 \contentsline {section}{\numberline {3.1}圧縮率}{14}
 \contentsline {section}{\numberline {3.2}単語の隣接関係を抽出する単純な手法}{15}
@@ -23,8 +23,8 @@
 \contentsline {section}{\numberline {5.2}画像分類による性能評価}{23}
 \contentsline {subsection}{\numberline {5.2.1}データセット}{23}
 \contentsline {subsection}{\numberline {5.2.2}画像のテキスト化}{24}
-\contentsline {subsection}{\numberline {5.2.3}HOPRDCの評価結果}{25}
-\contentsline {subsection}{\numberline {5.2.4}WNMDの評価結果}{27}
+\contentsline {subsection}{\numberline {5.2.3}HOPRDCの評価結果}{24}
+\contentsline {subsection}{\numberline {5.2.4}WNMDの評価結果}{26}
 \contentsline {subsection}{\numberline {5.2.5}重み付け関数$g(w)$の評価}{29}
 \contentsline {section}{\numberline {5.3}時系列データ分類による性能評価}{29}
 \contentsline {subsection}{\numberline {5.3.1}UCR Time Series Classification Archive}{29}

@@ -32,7 +32,7 @@
 \begin{document}
 \renewcommand{\contentsname}{目 次}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
-\renewcommand{\bibname}{参考文献}
+% \renewcommand{\bibname}{参考文献}
 
 %====[ 表紙 ]========================================================
 \input{./00Title/title.tex}
@@ -63,7 +63,12 @@
 % \bibliographystyle{junsrt}
 \bibliographystyle{tieice}
 \bibliography{myrefs}
-\newpage
+\clearpage
+
+%====[ 付録 ]==================================================
+\addcontentsline{toc}{chapter}{付録}
+\input{./appendix.tex}
+\clearpage
 
 %====[ 図・表一覧 ]==================================================
 \addcontentsline{toc}{chapter}{図一覧}
@@ -73,6 +78,8 @@
 \addcontentsline{toc}{chapter}{表一覧}
 \listoftables
 \clearpage
+
+
 \pagebreak
 
 %--------------------------------------------------------------------

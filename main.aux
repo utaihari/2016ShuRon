@@ -10,12 +10,19 @@
 \newlabel{sec:研究背景と研究目的}{{1.1}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}本論文の構成}{2}}
 \newlabel{sec:本論文の構成}{{1.2}{2}}
+\citation{Nishida:2011:TCD:2064448.2064473}
+\citation{Wolf04algorithmicclustering}
+\citation{Li2006}
+\citation{e15010407}
+\citation{li2001information}
+\citation{1405274}
+\citation{Welch:1984:THD:1319729.1320134}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第2章}圧縮ベースパターン認識}{3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}LZW圧縮アルゴリズム}{3}}
-\@writefile{lot}{\contentsline {table}{\numberline {2\unhbox \voidb@x \hbox {--}1}{\ignorespaces 初期状態のLZW辞書．}}{3}}
-\newlabel{lz}{{2\unhbox \voidb@x \hbox {--}1}{3}}
+\@writefile{lot}{\contentsline {table}{\numberline {2\unhbox \voidb@x \hbox {--}1}{\ignorespaces 初期状態のLZW辞書．}}{4}}
+\newlabel{lz}{{2\unhbox \voidb@x \hbox {--}1}{4}}
 \citation{osamu2006}
 \@writefile{lot}{\contentsline {table}{\numberline {2\unhbox \voidb@x \hbox {--}2}{\ignorespaces 単語を登録した後のLZW辞書．}}{5}}
 \newlabel{lz2}{{2\unhbox \voidb@x \hbox {--}2}{5}}
@@ -37,9 +44,11 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}PRDC}{9}}
 \newlabel{eq:PRDC}{{2\unhbox \voidb@x \hbox {$\cdot $}5}{9}}
 \citation{PRDC}
+\citation{cilibrasi2007statistical}
 \@writefile{lof}{\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}4}{\ignorespaces 圧縮率ベクトルによるテキストの特徴表現．}}{10}}
 \newlabel{cv}{{2\unhbox \voidb@x \hbox {--}4}{10}}
 \citation{NDD}
+\citation{cerra2012fast}
 \citation{NMD}
 \@writefile{lof}{\contentsline {figure}{\numberline {2\unhbox \voidb@x \hbox {--}5}{\ignorespaces 辞書に基づく非類似度（距離）計算}}{11}}
 \newlabel{fig:image/Create_dictionary.eps}{{2\unhbox \voidb@x \hbox {--}5}{11}}
@@ -85,57 +94,58 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4\unhbox \voidb@x \hbox {--}2}{\ignorespaces 単純な領域と複雑な領域に対する辞書内での単語の割合}}{22}}
 \newlabel{fig:created_image.eps}{{4\unhbox \voidb@x \hbox {--}2}{22}}
 \newlabel{eq:weigtbWNMD}{{4\unhbox \voidb@x \hbox {$\cdot $}2}{22}}
-\citation{Corel}
-\citation{Caltech101}
-\citation{NMD}
-\citation{Corel}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第5章}実験}{23}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}HOPRDCにおける圧縮率と再圧縮率の関係}{23}}
 \newlabel{sec:hoprdcにおける圧縮率と再圧縮率の関係}{{5.1}{23}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}画像分類による性能評価}{23}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}データセット}{23}}
+\newlabel{eq:comp-recomp-relation}{{5\unhbox \voidb@x \hbox {$\cdot $}1}{23}}
+\citation{Corel}
+\citation{Caltech101}
+\citation{NMD}
+\citation{Corel}
 \citation{NMD}
 \@writefile{lof}{\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}1}{\ignorespaces 圧縮率と再圧縮率の関係}}{24}}
 \newlabel{fig:image/graph-recomp-comp}{{5\unhbox \voidb@x \hbox {--}1}{24}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}画像のテキスト化}{24}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}HOPRDCの評価結果}{24}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}画像分類による性能評価}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}データセット}{24}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}2}{\ignorespaces Corelデータセットの一部}}{25}}
 \newlabel{fig:image/dataset.eps}{{5\unhbox \voidb@x \hbox {--}2}{25}}
-\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}1}{\ignorespaces 全画像に対する判別率}}{25}}
-\newlabel{tab:Average_PRDCvsProposed}{{5\unhbox \voidb@x \hbox {--}1}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}画像のテキスト化}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}HOPRDCの評価結果}{25}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}3}{\ignorespaces クラス毎の判別率（クエリの数は100枚，基底辞書の個数は10個，試行回数は300回）}}{26}}
 \newlabel{fig:PRDCvsProposed.eps}{{5\unhbox \voidb@x \hbox {--}3}{26}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}WNMDの評価結果}{26}}
+\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}1}{\ignorespaces 全画像に対する判別率}}{26}}
+\newlabel{tab:Average_PRDCvsProposed}{{5\unhbox \voidb@x \hbox {--}1}{26}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}4}{\ignorespaces PRDCとHOPRDCの類似画像検索結果例}}{27}}
 \newlabel{fig:PRDC_HOPRDC_retrival.eps}{{5\unhbox \voidb@x \hbox {--}4}{27}}
-\newlabel{equ:Precision_Corel}{{5\unhbox \voidb@x \hbox {$\cdot $}2}{27}}
-\newlabel{equ:Precision_Caltech}{{5\unhbox \voidb@x \hbox {$\cdot $}3}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}WNMDの評価結果}{27}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}5}{\ignorespaces NMDと提案手法の平均適合率の比較（クエリはデータセット中の全ての画像）}}{28}}
 \newlabel{fig:NMDvsProposed.eps}{{5\unhbox \voidb@x \hbox {--}5}{28}}
-\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}2}{\ignorespaces 全画像に対する平均適合率}}{28}}
-\newlabel{tab:Average_NMDvsProposed}{{5\unhbox \voidb@x \hbox {--}2}{28}}
-\citation{UCRArchive}
+\newlabel{equ:Precision_Corel}{{5\unhbox \voidb@x \hbox {$\cdot $}3}{28}}
+\newlabel{equ:Precision_Caltech}{{5\unhbox \voidb@x \hbox {$\cdot $}4}{28}}
+\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}2}{\ignorespaces 全画像に対する平均適合率}}{29}}
+\newlabel{tab:Average_NMDvsProposed}{{5\unhbox \voidb@x \hbox {--}2}{29}}
 \@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}3}{\ignorespaces 重みの評価}}{29}}
 \newlabel{tab:NMD_weight_compare}{{5\unhbox \voidb@x \hbox {--}3}{29}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}重み付け関数$g(w)$の評価}{29}}
 \newlabel{sub:重み付け関数}{{5.2.5}{29}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}時系列データ分類による性能評価}{29}}
-\newlabel{sub:時系列データ分類による性能評価}{{5.3}{29}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}UCR Time Series Classification Archive}{29}}
-\newlabel{sub:UCR Time Series Classification Archive}{{5.3.1}{29}}
+\citation{UCRArchive}
 \@writefile{lof}{\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}6}{\ignorespaces データのテキスト化}}{30}}
 \newlabel{fig:DataEncode.eps}{{5\unhbox \voidb@x \hbox {--}6}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}時系列データ分類による性能評価}{30}}
+\newlabel{sub:時系列データ分類による性能評価}{{5.3}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}UCR Time Series Classification Archive}{30}}
+\newlabel{sub:UCR Time Series Classification Archive}{{5.3.1}{30}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}データのテキスト化}{30}}
 \newlabel{sub:データのテキスト化}{{5.3.2}{30}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}クラス分類実験}{30}}
 \newlabel{sub:クラス分類実験}{{5.3.3}{30}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}実験結果}{31}}
 \newlabel{sub:実験結果}{{5.3.4}{31}}
-\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}4}{\ignorespaces HOPRDCでPRDCよりも精度が向上（低下）したデータセットの数}}{31}}
-\newlabel{tab:HOPRDC_UP_AND_DOWN}{{5\unhbox \voidb@x \hbox {--}4}{31}}
-\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}5}{\ignorespaces WNMDでNMDよりも精度が向上（低下）したデータセットの数n}}{32}}
+\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}4}{\ignorespaces HOPRDCでPRDCよりも精度が向上（低下）したデータセットの数}}{32}}
+\newlabel{tab:HOPRDC_UP_AND_DOWN}{{5\unhbox \voidb@x \hbox {--}4}{32}}
+\@writefile{lot}{\contentsline {table}{\numberline {5\unhbox \voidb@x \hbox {--}5}{\ignorespaces WNMDでNMDよりも精度が向上（低下）したデータセットの数}}{32}}
 \newlabel{tab:WNMD_UP_AND_DOWN}{{5\unhbox \voidb@x \hbox {--}5}{32}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5\unhbox \voidb@x \hbox {--}7}{\ignorespaces HOPRDCで分類精度が向上するデータと低下するデータの例}}{32}}
 \newlabel{fig:image/HOPRDC_up_down.eps}{{5\unhbox \voidb@x \hbox {--}7}{32}}
@@ -151,10 +161,40 @@
 \bibcite{PRDC}{2}
 \bibcite{NDD}{3}
 \bibcite{NMD}{4}
-\bibcite{osamu2006}{5}
-\bibcite{Corel}{6}
-\bibcite{Caltech101}{7}
-\bibcite{UCRArchive}{8}
+\bibcite{Nishida:2011:TCD:2064448.2064473}{5}
+\bibcite{Wolf04algorithmicclustering}{6}
+\bibcite{Li2006}{7}
+\bibcite{e15010407}{8}
+\bibcite{li2001information}{9}
+\bibcite{1405274}{10}
 \@writefile{toc}{\contentsline {chapter}{参考文献}{37}}
-\@writefile{toc}{\contentsline {chapter}{図一覧}{38}}
-\@writefile{toc}{\contentsline {chapter}{表一覧}{39}}
+\bibcite{Welch:1984:THD:1319729.1320134}{11}
+\bibcite{osamu2006}{12}
+\bibcite{cilibrasi2007statistical}{13}
+\bibcite{cerra2012fast}{14}
+\bibcite{Corel}{15}
+\bibcite{Caltech101}{16}
+\bibcite{UCRArchive}{17}
+\@writefile{toc}{\contentsline {chapter}{付録}{39}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}1}{データを30分割したときの精度比較}}{39}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}1}{データを30分割したときの精度比較}}{40}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}1}{データを30分割したときの精度比較}}{41}}
+\gdef \LT@i {\LT@entry 
+    {4}{195.11064pt}\LT@entry 
+    {1}{51.78891pt}\LT@entry 
+    {1}{74.88335pt}\LT@entry 
+    {2}{47.06662pt}\LT@entry 
+    {1}{60.05281pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}1}{データを30分割したときの精度比較}}{42}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}2}{データを125分割したときの精度比較}}{43}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}2}{データを125分割したときの精度比較}}{44}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}2}{データを125分割したときの精度比較}}{45}}
+\gdef \LT@ii {\LT@entry 
+    {4}{195.11064pt}\LT@entry 
+    {1}{56.28891pt}\LT@entry 
+    {1}{74.88335pt}\LT@entry 
+    {2}{47.06662pt}\LT@entry 
+    {1}{64.55281pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {6\unhbox \voidb@x \hbox {--}2}{データを125分割したときの精度比較}}{46}}
+\@writefile{toc}{\contentsline {chapter}{図一覧}{47}}
+\@writefile{toc}{\contentsline {chapter}{表一覧}{48}}

@@ -1,11 +1,17 @@
 # Fdb version 3
-["dvipdf"] 0 "relatedstudy.dvi" "relatedstudy.pdf" "relatedstudy" 0
-  "relatedstudy.dvi" 0 -1 0 "latex"
+["dvipdf"] 1485360333 "relatedstudy.dvi" "relatedstudy.pdf" "relatedstudy" 1485360333
+  "relatedstudy.dvi" 1485360331 30908 839848fbc3c0a569b6d9a1dc8943ace1 "latex"
   (generated)
   "relatedstudy.pdf"
-["latex"] 0 "relatedstudy.tex" "relatedstudy.dvi" "relatedstudy" 0
-  "relatedstudy.aux" 1484673978 9 a94a2480d3289e625eea47cd1b285758 ""
-  "relatedstudy.tex" 0 -1 0 ""
+["latex"] 1485360331 "relatedstudy.tex" "relatedstudy.dvi" "relatedstudy" 1485360333
+  "c:/texlive/2013/texmf-dist/fonts/map/fontname/texfonts.map" 1429187093 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "c:/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1429186998 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "c:/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1429186998 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "c:/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd" 1429187167 2109 c400bd6c901edc4a09e4d53fcffd3b3c ""
+  "c:/texlive/2013/texmf-var/web2c/euptex/uplatex.fmt" 1429187515 3971789 5af116492bf69526bcdb2635c2d52f19 ""
+  "c:/texlive/2013/texmf.cnf" 1429190346 812 3d4830efe6a30914cb43623489bbc970 ""
+  "relatedstudy.aux" 1485360331 9 a94a2480d3289e625eea47cd1b285758 ""
+  "relatedstudy.tex" 1485360329 23340 810ce3fd4b0b718f8f31dbe14ebfc6f4 ""
   (generated)
   "relatedstudy.dvi"
   "relatedstudy.log"

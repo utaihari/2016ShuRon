@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{NCD}
 R.~Cilibrasi and P.~Vitanyi: ``Clustering by compression'', IEEE Trans. Inf.
@@ -19,9 +19,53 @@ D.~Besiris and E.~Zigouris: ``Dictionary-based color image retrieval using
   multiset theory'', Journal of Visual Communication and Image Representation,
   {\bf 24}, 7, pp. 1155 -- 1167 (2013).
 
+\bibitem{Nishida:2011:TCD:2064448.2064473}
+K.~Nishida, R.~Banno, K.~Fujimura and T.~Hoshide: ``Tweet classification by
+  data compression'', Proceedings of the 2011 International Workshop on
+  DETecting and Exploiting Cultural diversiTy on the Social Web, DETECT '11,
+  New York, NY, USA, ACM, pp. 29--34 (2011).
+
+\bibitem{Wolf04algorithmicclustering}
+R.~D. Wolf and et~al.: ``Algorithmic clustering of music based on string
+  compression'', COMPUTER MUSIC JOURNAL, pp. 49--67 (2004).
+
+\bibitem{Li2006}
+M.~Li and Y.~Zhu: ``Image Classification Via LZ78 Based String Kernel: A
+  Comparative Study'', pp. 704--712, Springer Berlin Heidelberg, Berlin,
+  Heidelberg (2006).
+
+\bibitem{e15010407}
+D.~Cerra and M.~Datcu: ``Expanding the algorithmic information theory frame for
+  applications to earth observation'', Entropy, {\bf 15}, 1, pp. 407--415
+  (2013).
+
+\bibitem{li2001information}
+M.~Li, J.~H. Badger, X.~Chen, S.~Kwong, P.~Kearney and H.~Zhang: ``An
+  information-based sequence distance and its application to whole
+  mitochondrial genome phylogeny'', Bioinformatics, {\bf 17}, 2, pp. 149--154
+  (2001).
+
+\bibitem{1405274}
+J.~Hagenauer, Z.~Dawy, B.~Gobel, P.~Hanus and J.~Mueller: ``Genomic analysis
+  using methods from information theory'', Information Theory Workshop, pp.
+  55--59 (2004).
+
+\bibitem{Welch:1984:THD:1319729.1320134}
+T.~A. Welch: ``A technique for high-performance data compression'', Computer,
+  {\bf 17}, 6, pp. 8--19 (1984).
+
 \bibitem{osamu2006}
 渡辺：``計算論から見たランダムネス'', 統計数理, {\bf 54},
   2, pp. 511--523 (2006).
+
+\bibitem{cilibrasi2007statistical}
+R.~L. Cilibrasi, et~al.: ``Statistical inference through data compression''
+  (2007).
+
+\bibitem{cerra2012fast}
+D.~Cerra and M.~Datcu: ``A fast compression-based similarity measure with
+  applications to content-based image retrieval'', Journal of Visual
+  Communication and Image Representation, {\bf 23}, 2, pp. 293--302 (2012).
 
 \bibitem{Corel}
 C.~Corp.: ``Corel stock photo library''.
